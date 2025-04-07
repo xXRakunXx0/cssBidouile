@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 * {
@@ -7,37 +6,108 @@
     box-sizing: border-box;
 }
 
-.btm {
-    color: white;
-    font-family: "itim", cursive;
+a {
     text-decoration: none;
-    padding: 11px 21px;
-    display: inline-block;
-    border-radius: 40px;
-    margin: 20% 20% ;
-}
-
-.inter{
-    font-family: "Inter", sans-serif;
 }
 
 .vert {
-    background-color: #61ff7b;
-}
-
-.blanc{
-    background-color: #ffffff;
-    color: black;
- 
+    background-color: #61FF7B;
 }
 
 .bleu {
-    background-color: #1398a0;
-    color: white;
-    font-weight: 100;
-
+    background-color: #1398A0;
 }
 
-.padding {
+
+
+.boldBlack {
+    font-weight: 700;
+    color: black;
+}
+
+.regularWhite {
+    font-weight: 100;
+    color: white;
+}
+
+
+
+.btn {
     padding: 11px 21px;
+    font-family: 'Inter';
+    text-decoration: none;
+    display: inline-block;
+}
+
+.solid {
+    border: 5px solid black;
+}
+
+.dashed {
+    border: 5px dashed black;
+}
+
+.radius32 {
+    border-radius: 32px;
+}
+
+.btn4 {
+    border-radius: 0 32px;
+}
+
+.btn5 {
+    border-radius: 8px;
+}
+
+.img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    width: 30%;
+    border-radius: 16px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 15px grey;
+    margin: auto;
+    display: block;
+    font-family: "Inter", sans-serif;
+}
+
+.top20{
+    margin: 10px 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    border-bottom: solid 1px black;
+}
+
+nav{
+    width: 50%;
+}
+  
+a:hover{
+    color: red;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+logo{
+    width: 200px;
 }
